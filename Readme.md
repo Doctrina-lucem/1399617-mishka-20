@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Дмитриев](https://up.htmlacademy.ru/adaptive/20/user/1399617).
-* Наставник: [Aleksei Pudnikov] (https://htmlacademy.ru/profile/id71418).
+* Наставник: [Aleksei Pudnikov](https://htmlacademy.ru/profile/id71418).
 
 ---
 
