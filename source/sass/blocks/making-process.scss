@@ -1,0 +1,17 @@
+.making-process__title{
+  @include large-text;
+  font-size: 17px;
+  line-height: 24px;
+}
+.making-process__text{
+  @include basic-text;
+  line-height: 24px;
+  font-size: 13px;
+  color: $text-grey;
+}
+
+
+
+
+
+

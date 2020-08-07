@@ -1,0 +1,10 @@
+.write-us-top__title{
+  @include large-text;
+  font-size: 27px;
+}
+.write-us-top__text{
+  @include basic-text;
+  font-size: 13px;
+  line-height: 24px;
+  color: $text-grey;
+}

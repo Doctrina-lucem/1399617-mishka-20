@@ -1,0 +1,14 @@
+.button{
+  width: 260px;
+  height: 52px;
+  text-align: center;
+  border: 2px solid $text-grey;
+  text-transform: uppercase;
+  @include large-text;
+  font-size: 18px;
+  line-height: 20px;
+  color: $text-grey
+}
+
+
+

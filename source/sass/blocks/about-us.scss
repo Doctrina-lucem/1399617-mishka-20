@@ -1,0 +1,10 @@
+.about-us__title{
+  @include large-text;
+  font-size: 25px;
+}
+.about-us__text{
+  @include large-text;
+  font-size: 17px;
+  line-height: 20px;
+}
+

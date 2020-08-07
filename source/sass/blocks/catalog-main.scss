@@ -1,0 +1,22 @@
+.catalog-main__border{
+  border: 1px solid #ECECEC;
+}
+.catalog-main__title{
+  @include large-text;
+  line-height: 24px;
+  font-size: 17px;
+}
+.catalog-main__text{
+  @include basic-text;
+  font-size: 13px;
+  color: $text-grey;
+}
+.catalog-main__buy{
+  @include large-text;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+
+
+

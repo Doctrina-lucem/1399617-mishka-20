@@ -1,0 +1,40 @@
+.write-us-main__type,
+.write-us-main__color,
+.write-us-main__name,
+.write-us-main__tel,
+.write-us-main__email,
+.write-us-main__extra{
+  border: none;
+}
+.type__title,
+.color__title,
+.name__title,
+.email__title,
+.extra__title{
+  @include large-text;
+  line-height: 16px;
+  font-size: 17px;
+  color: $tiffany;
+}
+.type__radio,
+.color__name,
+.name__text{
+  @include large-text;
+  line-height: 16px;
+  font-size: 17px;
+}
+.name__input,
+.extra__textarea,
+.email__input,
+.tel__input{
+  @include basic-text;
+  line-height: 18px;
+  font-size: 17px;
+  opacity: 0.3;
+}
+.write-us__text{
+  @include basic-text;
+  line-height: 16px;
+  font-size: 14px;
+  color: $text-grey;
+}
