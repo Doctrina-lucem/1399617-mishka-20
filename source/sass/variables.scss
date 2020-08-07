@@ -1,0 +1,20 @@
+$basic-black: #000000;
+$basic-white: #ffffff;
+$tiffany: #62D1BA;
+$dark-tiffany: #56C3B2;
+$text-grey: #444444;
+$background-grey: #F1F1F1;
+@mixin  large-text {
+  font: {
+    family: "Open Sans";
+    weight: 700;
+  }
+}
+@mixin  basic-text {
+  font: {
+    family: "Open Sans";
+    weight: 400;
+  }
+}
+
+

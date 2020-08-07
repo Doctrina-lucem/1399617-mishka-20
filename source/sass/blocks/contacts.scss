@@ -1,0 +1,14 @@
+.contacts__title{
+  @include large-text;
+  font-size: 18px;
+}
+.contacts__list{
+  display: grid;
+  grid-template-columns: 77px 1fr;
+}
+.contacts__item{
+  @include basic-text;
+  font-size: 15px;
+  color: $text-grey;
+}
+
