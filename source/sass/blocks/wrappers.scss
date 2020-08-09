@@ -13,3 +13,20 @@
   margin: 0 auto;
   box-sizing: border-box;
 }
+@media (min-width: 768px){
+.page-header__wrapper,
+.pages__wrapper,
+.best-product__wrapper,
+.about-us__wrapper,
+.rewiews__wrapper,
+.company-info__wrapper,
+.footer__wrapper,
+.catalog__wrapper,
+.making-process__wrapper,
+.write-us-top__wrapper,
+.wrete-us-main__wrapper{
+  width: 667px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+}
