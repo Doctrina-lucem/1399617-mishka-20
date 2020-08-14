@@ -1,21 +1,24 @@
-.reviews__button{
+.reviews__button--hide{
   display: none;
 }
 .reviews__title{
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 25px;
+  margin-bottom: 14px;
 }
 .reviews__text{
   font-family: "Open Sans";
   font-weight: 400;
   font-size: 15px;
   color: $text-grey;
+  margin-bottom: 33px;
 }
 .reviews__autor{
   font-family: "Open Sans";
   font-weight: 700;
   font-size: 17px;
+  margin-bottom: 30px;
 }
 .reviews__autor--text{
   font-family: "Open Sans";
@@ -23,5 +26,18 @@
   line-height: 30px;
   color: $text-grey;
 }
-
-
+.rewiews__nav{
+  margin-bottom: 38px;
+  display: flex;
+  flex-direction: row;
+}
+.reviews__next,
+.reviews__next{
+  width: 130px;
+  height: 52px;
+  background-color: $basic-white;
+  border: 1px solid #ECECEC;
+}
+.reviews__next{
+  border-right: 1px solid #ECECEC;
+}
