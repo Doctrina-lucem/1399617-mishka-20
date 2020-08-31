@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru" class="page">
   <head>
     <meta charset="UTF-8">
     <title>HTML Academy: Мишка</title>
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body class="page__body">
     <header class="page-header">
       <div class="page-header__wrapper">
-        <a href="" class="page-header__image">
+        <a href="index.html" class="page-header__image">
           <img src="img/logo-mobile.svg" alt="Интернет-магазин Мишка">
         </a>
         <a href="" class="page-header__button">
@@ -48,58 +48,65 @@
       <section class="write-us-main">
         <div class="wrete-us-main__wrapper">
           <form class="write-us-main__form" action="https://echo.htmlacademy.ru" method="GET">
-            <fieldset class="write-us-main__type type">
-              <legend class="type__title">Тип</legend>
-              <label class="type__name">
-                <input class="type__radio" type="radio" name="type">Аксессуар для интерьера
-              </label>
-              <label class="type__name">
-                <input class="type__radio" type="radio" name="type">Детская игрушка
-              </label>
-            </fieldset>
-            <fieldset class="write-us-main__color color">
-              <legend class="color__title">Цвет</legend>
-              <input class="color__input" type="checkbox" name="color" value="white" id="color-white" checked>
-              <label class="color__name" for="color-white">Белый</label>
-              <input class="color__input" type="checkbox" name="color" value="grey" id="color-grey" checked>
-              <label class="color__name" for="color-grey">Серый</label>
-              <input class="color__input" type="checkbox" name="color" value="tiffany" id="color-tiffany">
-              <label class="color__name" for="color-tiffany">"Тиффани"</label>
-              <input class="color__input" type="checkbox" name="color" value="black" id="color-black">
-              <label class="color__name" for="color-black">Черный</label>
-              <input class="color__input" type="checkbox" name="color" value="pink" id="color-pink">
-              <label class="color__name" for="color-pink">Розовый</label>
-              <input class="color__input" type="checkbox" name="color" value="orange" id="color-orange">
-              <label class="color__name" for="color-orange">Оранжевый</label>
-            </fieldset>
-            <fieldset class="write-us-main__name name">
-              <legend class="name__title">ФИО</legend>
-                <label for="name" class="name__text">Имя:</label>
-                <input class="name__input" type="text" name="name" id="name" placeholder="Введите ваше имя*">
-                <label for="surname" class="name__text">Фамилия:</label>
-                <input class="name__input" type="text" name="surname" id="surname" placeholder="Укажите фамилию*">
-                <label for="patronymic" class="name__text">Отчество:</label>
-                <input class="name__input" type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете">
-            </fieldset>
-            <fieldset class="write-us-main__tel">
-              <legend class="tel__title">Тел</legend>
-                <label>
-                  <input type="tel" class="tel__input" name="phone-number" placeholder="+7 ХХХ ХХХ ХХ ХХ*"><img src="https://via.placeholder.com/25x24">
+            <div class="write-us-main__type">
+              <legend class="write-us-main__type-title">Тип</legend>
+              <div class="div">
+                <label class="write-us-main__type-name">
+                  <input class="write-us-main__type-radio" type="radio" name="type">Аксессуар для интерьера
                 </label>
-            </fieldset>
-            <fieldset class="write-us-main__email email">
-              <legend class="email__title">E-mail</legend>
-                <label>
-                  <input class="email__input" type="email" name="e-mail" placeholder="Ваш Email*" img src="https://via.placeholder.com/32x21">
+                <label class="write-us-main__type-name">
+                  <input class="write-us-main__type-radio" type="radio" name="type">Детская игрушка
                 </label>
-            </fieldset>
-            <fieldset class="write-us-main__extra extra">
-              <legend class="extra__title">Доп</legend>
-              <textarea class="extra__textarea"name="" id=""placeholder="Опишите все ваши пожелания к заказу"></textarea>
-            </fieldset>
+              </div>
+            </div>
+            <div class="write-us-main__color">
+              <legend class="write-us-main__color-title">Цвет</legend>
+              <div>
+              <input class="write-us-main__color-input" type="checkbox" name="color" value="white" id="color-white" checked>
+              <label class="write-us-main__color-name" for="color-white">Белый</label>
+              <input class="write-us-main__color-input" type="checkbox" name="color" value="grey" id="color-grey" checked>
+              <label class="write-us-main__color-name" for="color-grey">Серый</label>
+              <input class="write-us-main__color-input" type="checkbox" name="color" value="tiffany" id="color-tiffany">
+              <label class="write-us-main__color-name" for="color-tiffany">"Тиффани"</label>
+              <input class="write-us-main__color-input" type="checkbox" name="color" value="black" id="color-black">
+              <label class="write-us-main__color-name" for="color-black">Черный</label>
+              <input class="write-us-main__color-input" type="checkbox" name="color" value="pink" id="color-pink">
+              <label class="write-us-main__color-name" for="color-pink">Розовый</label>
+              <input class="write-us-main__color-input" type="checkbox" name="color" value="orange" id="color-orange">
+              <label class="write-us-main__color-name" for="color-orange">Оранжевый</label>
+              </div>
+            </div>
+            <div class="write-us-main__name">
+              <legend class="write-us-main__name-title">ФИО</legend>
+                <div class="div">
+                  <label for="name" class="write-us-main__name-text">Имя:</label>
+                  <input class="write-us-main__name-input" type="text" name="name" id="name" placeholder="Введите ваше имя*">
+                  <label for="surname" class="write-us-main__name-text">Фамилия:</label>
+                  <input class="write-us-main__name-input" type="text" name="surname" id="surname" placeholder="Укажите фамилию*">
+                  <label for="patronymic" class="write-us-main__name-text">Отчество:</label>
+                  <input class="write-us-main__name-input" type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете">
+                </div>
+            </div>
+            <div class="write-us-main__tel">
+              <legend class="write-us-main__tel-title">Тел</legend>
+                <label>
+                  <input type="tel" class="write-us-main__tel-input" name="phone-number" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
+                  <img src="img/icon-phone.svg">
+                </label>
+            </div>
+            <div class="write-us-main__email">
+              <legend class="write-us-main__email-title">E-mail</legend>
+                <label>
+                  <input class="write-us-main__email-input" type="email" name="e-mail" placeholder="Ваш Email*"><img src="img/icon-mail.svg">
+                </label>
+            </div>
+            <div class="write-us-main__extra">
+              <legend class="write-us-main__extra-title">Доп</legend>
+              <textarea class="write-us-main__extra-textarea"name="" id=""placeholder="Опишите все ваши пожелания к заказу"></textarea>
+            </div>
             <div class="write-us__submit">
               <p class="write-us__text">*Поля обязательны для заполнения</p>
-              <button class="write-us-main__button button">Отправить заказ</button>
+              <button class="write-us__button button">Отправить заказ</button>
             </div>
           </form>
         </div>

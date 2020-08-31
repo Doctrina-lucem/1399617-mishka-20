@@ -11,4 +11,14 @@
   font-size: 15px;
   color: $text-grey;
 }
+@media (min-width: 768px) {
+  .contacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .company-info__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+}
 

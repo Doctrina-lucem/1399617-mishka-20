@@ -1,3 +1,4 @@
+
 .best-product__title{
   @include large-text;
   margin-bottom: 17px;
@@ -47,12 +48,22 @@
 }
 .best-product__buy{
   margin-top: 25px;
+  margin: 0 auto;
 }
 @media (min-width: 768px){
   .best-product__title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  .best-product__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+  }
+  .best-product__main-title{
+    font-size: 43px;
+    line-height: 50px;
   }
 }
 

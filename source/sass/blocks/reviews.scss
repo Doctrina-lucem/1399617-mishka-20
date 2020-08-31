@@ -41,3 +41,26 @@
 .reviews__next{
   border-right: 1px solid #ECECEC;
 }
+@media (min-width: 768px) {
+  .reviews__header{
+    display: flex;
+    justify-content: space-between;
+  }
+  .reviews__button--hide{
+    display: block;
+  }
+  .reviews__title{
+   font-size: 43px;
+   line-height: 50px;
+  }
+  .reviews__footer-button{
+    display: none;
+  }
+  .reviews__footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  .reviews__text{
+    font-size: 17px;
+  }
+}

@@ -1,32 +1,47 @@
-.write-us-main__type,
-.write-us-main__color,
-.write-us-main__name,
-.write-us-main__tel,
-.write-us-main__email,
-.write-us-main__extra{
-  border: none;
+@media (min-width: 768px) {
+  .write-us-main__type,
+  .write-us-main__color,
+  .write-us-main__name,
+  .write-us-main__tel,
+  .write-us-main__email,
+  .write-us-main__extra{
+    border: none;
+    display: grid;
+    grid-template-columns: 167px 1fr;
+  }
+  .write-us__submit{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .write-us__text{
+    order: 1;
+  }
 }
-.type__title,
-.color__title,
-.name__title,
-.email__title,
-.extra__title{
+
+.write-us-main__type-title,
+.write-us-main__color-title,
+.write-us-main__name-title,
+.write-us-main__email-title,
+.write-us-main__extra-title,
+.write-us-main__tel-title{
   @include large-text;
   line-height: 16px;
   font-size: 17px;
   color: $tiffany;
 }
-.type__radio,
-.color__name,
-.name__text{
+.write-us-main__type-radio,
+.write-us-main__color-name,
+.write-us-main__name-text,
+.write-us-main__type-name{
   @include large-text;
-  line-height: 16px;
+  line-height: 18px;
   font-size: 17px;
 }
-.name__input,
-.extra__textarea,
-.email__input,
-.tel__input{
+.write-us-main__name-input,
+.write-us-main__extra-textarea,
+.write-us-main__email-input,
+.write-us-main__tel-input{
   @include basic-text;
   line-height: 18px;
   font-size: 17px;
