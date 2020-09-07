@@ -9,8 +9,24 @@
   font-size: 13px;
   color: $text-grey;
 }
-
-
+@media (min-width: 768px){
+  .making-process__wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  .making-process__top{
+    order: 1;
+  }
+  .making-process__video{
+    order: 0;
+  }
+  .making-process__text{
+    order: 2;
+  }
+  .making-process__button{
+    width: 100%;
+  }
+}
 
 
 

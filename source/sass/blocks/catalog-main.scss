@@ -1,6 +1,9 @@
 .catalog-main__border{
   border: 1px solid #ECECEC;
 }
+.catalog-main__border{
+  padding: 0 28px;
+}
 .catalog-main__title{
   @include large-text;
   line-height: 24px;
@@ -15,8 +18,32 @@
   @include large-text;
   font-size: 15px;
   line-height: 24px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #ECECEC;
 }
+@media (min-width: 768px) {
+  .catalog-main__item{
+    display: grid;
+    grid-template-columns: 333px 334px;
+  }
+  .catalog-main__border{
+    padding: 0 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+@media (min-width: 1150px) {
+  .catalog-main__item{
+    grid-template-rows: 462px 197px;
+    grid-template-columns: none;
+  }
+  .catalog-main__list{
+    display: grid;
+    grid-template-columns: 316px 316px 316px;
 
-
+  }
+}
 
 

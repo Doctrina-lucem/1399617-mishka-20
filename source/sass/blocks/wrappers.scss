@@ -9,7 +9,11 @@
 .making-process__wrapper,
 .write-us-top__wrapper,
 .wrete-us-main__wrapper{
-  width: 260px;
-  margin: 0 auto;
-  box-sizing: border-box;
+  @include wrapper;
 }
+.wrappeps-leftpadding{
+  padding-left: 225px;
+}
+
+
+
