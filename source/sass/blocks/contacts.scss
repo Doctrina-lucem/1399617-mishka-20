@@ -6,10 +6,22 @@
   display: grid;
   grid-template-columns: 77px 1fr;
 }
+.company-info__title{
+  grid-area: head;
+}
+.company-info__map{
+  grid-area: img;
+}
+.contacts{
+  grid-area: contacts;
+}
 .contacts__item{
   @include basic-text;
   font-size: 15px;
   color: $text-grey;
+}
+.company-info__button{
+  grid-area: btn;
 }
 @media (min-width: 768px) {
   .contacts{
@@ -21,4 +33,16 @@
     flex-direction: column;
   }
 }
-
+@media (min-width: 1150px) { 
+  .company-info__wrapper{
+    display: grid;
+    grid-template-rows: 100px 256px 100px;
+    grid-template-columns: 349px 1fr;
+    grid-template-areas: "head img"
+                         "contacts img"        
+                         "btn img";
+  }
+  .contacts{
+    grid-template-columns: none;
+  }
+}
