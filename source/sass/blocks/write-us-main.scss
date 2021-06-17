@@ -18,7 +18,26 @@
     order: 1;
   }
 }
-
+.form__input{
+  border: none;
+}
+.write-us-main__border{
+  box-shadow: ;
+}
+.write-us-main__div{
+  display: flex;
+  flex-direction: column;
+}
+.write-us-main__decor{
+  height: 1px;
+  background-color: $tiffany;
+  min-width: 200px;
+  margin: auto 20px;
+}
+.write-us-main__top{
+  display: flex;
+  flex-direction: row;
+}
 .write-us-main__type-title,
 .write-us-main__color-title,
 .write-us-main__name-title,

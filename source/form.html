@@ -49,59 +49,89 @@
         <div class="wrete-us-main__wrapper">
           <form class="write-us-main__form" action="https://echo.htmlacademy.ru" method="GET">
             <div class="write-us-main__type">
-              <legend class="write-us-main__type-title">Тип</legend>
-              <div class="div">
+              <div class="write-us-main__top">
+                <legend class="write-us-main__type-title">Тип</legend>
+                <div class="write-us-main__decor"></div>
+              </div>
+              <div class="write-us-main__div">
                 <label class="write-us-main__type-name">
                   <input class="write-us-main__type-radio" type="radio" name="type">Аксессуар для интерьера
                 </label>
                 <label class="write-us-main__type-name">
-                  <input class="write-us-main__type-radio" type="radio" name="type">Детская игрушка
+                  <input class="write-us-main" type="radio" name="type">Детская игрушка
                 </label>
               </div>
             </div>
             <div class="write-us-main__color">
-              <legend class="write-us-main__color-title">Цвет</legend>
-              <div>
-              <input class="write-us-main__color-input" type="checkbox" name="color" value="white" id="color-white" checked>
-              <label class="write-us-main__color-name" for="color-white">Белый</label>
-              <input class="write-us-main__color-input" type="checkbox" name="color" value="grey" id="color-grey" checked>
-              <label class="write-us-main__color-name" for="color-grey">Серый</label>
-              <input class="write-us-main__color-input" type="checkbox" name="color" value="tiffany" id="color-tiffany">
-              <label class="write-us-main__color-name" for="color-tiffany">"Тиффани"</label>
-              <input class="write-us-main__color-input" type="checkbox" name="color" value="black" id="color-black">
-              <label class="write-us-main__color-name" for="color-black">Черный</label>
-              <input class="write-us-main__color-input" type="checkbox" name="color" value="pink" id="color-pink">
-              <label class="write-us-main__color-name" for="color-pink">Розовый</label>
-              <input class="write-us-main__color-input" type="checkbox" name="color" value="orange" id="color-orange">
-              <label class="write-us-main__color-name" for="color-orange">Оранжевый</label>
+              <div class="write-us-main__top">
+                <legend class="write-us-main__color-title">Цвет</legend>
+                <div class="write-us-main__decor"></div>
               </div>
+              <ul class="write-us-main__div">
+              <li>
+                <input class="write-us-main__color-input" type="checkbox" name="color" value="white" id="color-white" checked>
+                <label class="write-us-main__color-name" for="color-white">Белый</label>
+              </li>
+              <li>
+                <input class="write-us-main__color-input" type="checkbox" name="color" value="grey" id="color-grey" checked>
+                <label class="write-us-main__color-name" for="color-grey">Серый</label>
+              </li>
+              <li>
+                <input class="write-us-main__color-input" type="checkbox" name="color" value="tiffany" id="color-tiffany">
+                <label class="write-us-main__color-name" for="color-tiffany">"Тиффани"</label>
+              </li>
+              <li>
+                <input class="write-us-main__color-input" type="checkbox" name="color" value="black" id="color-black">
+                <label class="write-us-main__color-name" for="color-black">Черный</label>
+              </li>
+              <li>
+                <input class="write-us-main__color-input" type="checkbox" name="color" value="pink" id="color-pink">
+                <label class="write-us-main__color-name" for="color-pink">Розовый</label>
+              </li>
+              <li>
+                <input class="write-us-main__color-input" type="checkbox" name="color" value="orange" id="color-orange">
+                <label class="write-us-main__color-name" for="color-orange">Оранжевый</label>
+              </li>
+              </ul>
             </div>
-            <div class="write-us-main__name">
-              <legend class="write-us-main__name-title">ФИО</legend>
-                <div class="div">
+            <div class="write-us-main__name write-us-main__border">
+              <div class="write-us-main__top">
+                <legend class="write-us-main__name-title">ФИО</legend>
+                <div class="write-us-main__decor"></div>
+              </div>
+                <div class="write-us-main__div">
                   <label for="name" class="write-us-main__name-text">Имя:</label>
-                  <input class="write-us-main__name-input" type="text" name="name" id="name" placeholder="Введите ваше имя*">
+                  <input class="write-us-main__name-input form__input" type="text" name="name" id="name" placeholder="Введите ваше имя*">
                   <label for="surname" class="write-us-main__name-text">Фамилия:</label>
-                  <input class="write-us-main__name-input" type="text" name="surname" id="surname" placeholder="Укажите фамилию*">
+                  <input class="write-us-main__name-input form__input" type="text" name="surname" id="surname" placeholder="Укажите фамилию*">
                   <label for="patronymic" class="write-us-main__name-text">Отчество:</label>
-                  <input class="write-us-main__name-input" type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете">
+                  <input class="write-us-main__name-input form__input" type="text" name="patronymic" id="patronymic" placeholder="Отчество, если желаете">
                 </div>
             </div>
-            <div class="write-us-main__tel">
-              <legend class="write-us-main__tel-title">Тел</legend>
+            <div class="write-us-main__tel write-us-main__border">
+              <div class="write-us-main__top">
+                <legend class="write-us-main__tel-title">Тел</legend>
+                <div class="write-us-main__decor"></div>
+              </div>
                 <label>
-                  <input type="tel" class="write-us-main__tel-input" name="phone-number" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
+                  <input type="tel" class="write-us-main__tel-input form__input" name="phone-number" placeholder="+7 ХХХ ХХХ ХХ ХХ*">
                   <img src="img/icon-phone.svg">
                 </label>
             </div>
-            <div class="write-us-main__email">
-              <legend class="write-us-main__email-title">E-mail</legend>
+            <div class="write-us-main__email write-us-main__border">
+              <div class="write-us-main__top">
+                <legend class="write-us-main__email-title">E-mail</legend>
+                <div class="write-us-main__decor"></div>
+              </div>
                 <label>
-                  <input class="write-us-main__email-input" type="email" name="e-mail" placeholder="Ваш Email*"><img src="img/icon-mail.svg">
+                  <input class="write-us-main__email-input form__input" type="email" name="e-mail" placeholder="Ваш Email*"><img src="img/icon-mail.svg">
                 </label>
             </div>
             <div class="write-us-main__extra">
-              <legend class="write-us-main__extra-title">Доп</legend>
+              <div class="write-us-main__top">
+                <legend class="write-us-main__extra-title">Доп</legend>
+                <div class="write-us-main__decor"></div>
+              </div>
               <textarea class="write-us-main__extra-textarea"name="" id=""placeholder="Опишите все ваши пожелания к заказу"></textarea>
             </div>
             <div class="write-us__submit">
